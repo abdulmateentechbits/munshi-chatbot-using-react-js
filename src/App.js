@@ -36,6 +36,7 @@ function App() {
   return (
     <div className="App">
       <h2 style={{color:'white'}}>Munshi seh kuch pochlo..</h2>
+      <h3 style={{color:'white'}}>By Abdul mateen chitrali</h3>
       {
         result.length > 0 && <div id="results">{result}</div>
       }
